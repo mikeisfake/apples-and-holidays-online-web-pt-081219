@@ -50,7 +50,7 @@ holiday_hash.each do |season, holidays|
   holidays.each do |holiday, supply_array|
     supply_array.any? do |i|
     if i == "BBQ"
-      i.keys
+      holiday 
     end 
   end
   end 
