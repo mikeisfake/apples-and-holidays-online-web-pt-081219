@@ -46,8 +46,10 @@ end
 # end
 
 def all_holidays_with_bbq(holiday_hash)
-holiday_hash.each do |season, holiday|
-  puts "#{holiday}"
+holiday_hash.each do |season, holidays|
+  holidays.each do |holiday, supply_array|
+    puts "#{supply_array}"
+  end 
 end 
 end
 
