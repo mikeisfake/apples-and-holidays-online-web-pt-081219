@@ -49,6 +49,7 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_hash.each do |season, holidays|
   holidays.each do |holiday, supply_array|
     supply_array.include?("BBQ")
+    puts "#{holiday}"
   end 
 end 
 end
