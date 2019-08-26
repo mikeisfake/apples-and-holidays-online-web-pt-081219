@@ -46,15 +46,14 @@ end
 # end
 
 def all_holidays_with_bbq(holiday_hash)
-holiday_hash.each do |season, holidays|
-  holidays.each do |holiday, supply_array|
-    supply_array.any? do |i|
-    if i == "BBQ"
-     puts "#{holiday}" 
+  holiday_hash.each do |season, holidays|
+    holidays.each do |holiday, supply_array|
+      supply_array.any? do |i|
+        if i == "BBQ"
+        end 
+      end
     end 
-  end
   end 
-end 
 end
 
 
